@@ -2,8 +2,8 @@
   --sidebar-flex: 1.5;
   --condiv-flex: 6;
   --fontsize-p: 1.2rem;
-  --fontsize-nav: 1.6rem;
-  --typing-font: 2rem;
+  --fontsize-nav: 1.4rem;
+  --typing-font: 1.5rem;
 }
 
 * {
@@ -31,7 +31,7 @@ nav ul {
 }
 
 nav ul li {
-  margin: 40px;
+  margin: 45px;
 }
 
 nav ul li a {
@@ -44,7 +44,7 @@ nav ul li a:hover {
 
 .condiv {
   padding: 100px;
-  background-color: #f4f5f9;
+  background-color: #e5e5e7;
   flex: var(--condiv-flex);
 }
 
@@ -58,18 +58,18 @@ nav ul li a:hover {
 .profilepic {
   border-radius: 50%;
   width: 400px;
-  margin: 30px;
+  margin: 20px;
 }
 
 .social {
   position: absolute;
-  margin-top: 20px;
+  margin-top: 30px;
   display: flex;
-  bottom: 60px;
+  bottom: 30px;
 }
 .social i {
-  padding-right: 30px;
-  font-size: 25px;
+  padding-right: 20px;
+  font-size: 30px;
   color: #9a9b9c;
 }
 .social i:hover {
@@ -78,5 +78,5 @@ nav ul li a:hover {
 
 .typingeffect {
   font-size: var(--typing-font);
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }

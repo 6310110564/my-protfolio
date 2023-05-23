@@ -120,3 +120,11 @@ p {
   list-style: none;
   margin: 30px;
 }
+
+.p-contact {
+  padding: 10px;
+}
+
+.active {
+  font-weight: bold;
+}

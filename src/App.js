@@ -9,6 +9,7 @@ import { BrowserRouter as Router, Route, BrowserRouter, Routes } from 'react-rou
 import About from './Contents/About';
 import Education from './Contents/Education';
 import Skills from './Contents/Skills';
+import Contact from './Contents/Contact';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/education" element={<Education />} />
         <Route path="/skills" element={<Skills />} />
+        <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
     </BrowserRouter>

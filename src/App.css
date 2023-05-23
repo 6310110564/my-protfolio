@@ -43,7 +43,7 @@ nav ul li a:hover {
 }
 
 .condiv {
-  padding: 100px;
+  padding: 40px;
   background-color: #e5e5e7;
   flex: var(--condiv-flex);
 }
@@ -79,4 +79,30 @@ nav ul li a:hover {
 .typingeffect {
   font-size: var(--typing-font);
   margin-bottom: 10px;
+}
+
+.about {
+  text-align: center;
+}
+.subtopic {
+  margin: 10px 10px 20px 10px !important;
+}
+h1,h2,h3,h4 {
+  margin: 10px;
+}
+p {
+  font-size: var(--fontsize-p);
+}
+
+.widecard {
+  display: flex;
+  margin: 30px 0px 30px 0px;
+  transition: .3s;
+  border-radius: 10px;
+  padding: .5rem;
+}
+.widecard:hover {
+  color: #fff;
+  background: #333;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
 }

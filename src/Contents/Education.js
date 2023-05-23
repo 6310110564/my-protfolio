@@ -10,6 +10,7 @@ class Education extends Component {
                 <Widecard title="High School" where="Stree Yala School" from="2013" to="2019"/>
             </div>
         );
+        
     }
 }
 

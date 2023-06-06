@@ -1,12 +1,12 @@
 import React, { Component, useRef} from "react";
 import Navitem from './Navitems'
 
-let mainNav = document.getElementById('js-menu');
-let navBarToggle = document.getElementById('js-nav-toggle');
+// let mainNav = document.getElementById('js-menu');
+// let navBarToggle = document.getElementById('js-nav-toggle');
 
-navBarToggle.addEventListener("click", function() {
-    mainNav.classList.toggle('active');
-})
+// navBarToggle.addEventListener("click", function() {
+//     mainNav.classList.toggle('active');
+// })
 
 class Navbar extends Component {
 
@@ -31,9 +31,9 @@ class Navbar extends Component {
     render() {
         return(
         <nav>
-            <span className="nav-toggle" id="js-nav-toggle">
+            {/* <span className="nav-toggle" id="js-nav-toggle">
                 <i class="fas fa-bars"></i>
-            </span>
+            </span> */}
 
             <div className="nav-r">
                 <h3>PORTFOLIO</h3>

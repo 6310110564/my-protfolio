@@ -6,7 +6,7 @@ class Skills extends Component {
         super(props);
 
         this.state = {
-            'myskills' : ['HTML', 'CSS', 'JS', 'ReactJS', 'UX/UI', 'C']
+            'myskills' : ['HTML', 'CSS', 'JS', 'ReactJS', 'C', 'JAVA']
         }
     }
 
